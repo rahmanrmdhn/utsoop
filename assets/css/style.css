@@ -1,0 +1,59 @@
+
+body
+{
+    background-color: slategray;
+}
+ 
+.badan-utama
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+    background-color: skyblue;
+    color: black;
+    padding: 20px;
+}
+ 
+header h2
+{
+    margin-bottom: 8px;
+    font-size: 50px;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:red;
+    transition-duration: 2s;
+}
